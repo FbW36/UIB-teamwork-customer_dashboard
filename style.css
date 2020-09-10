@@ -10,7 +10,7 @@ body {
   font-size: 1.6rem;
   font-family: sans-serif;
   min-height: 100vh;
-  background-color: mistyrose;
+  background-color: #fff8fc;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,11 +37,15 @@ h1::after {
 table,
 th,
 td {
+  /*  width: 100%; */
   border-top: 1px solid gray;
   border-collapse: collapse;
   border-bottom: 1px solid gray;
   padding: 1rem 1rem;
+  font-weight: 400;
+  font-size: 1.2rem;
 }
+
 thead {
   border-top: 3px solid rgba(128, 128, 128, 0.705);
 }
